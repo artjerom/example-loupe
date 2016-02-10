@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.deepLoupe {
+  overflow: hidden;
+  position: relative;
+}
+.deepLoupe .de-loupe {
+  display: none;
+  cursor: none;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: scale(1.6);
+}
+.deepLoupe .de-loupe:focus {
+  border-radius: 20%;
+}

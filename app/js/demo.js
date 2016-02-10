@@ -1,0 +1,5 @@
+$(function() {
+
+  $('.test-plugin').deepLoupe();
+
+})
